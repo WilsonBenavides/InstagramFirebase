@@ -11,8 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     
     let plusPhotoButton: UIButton = {
-        let button = UIButton()
-        button.backgroundColor = .red
+        let button = UIButton(type: .system)
+        button.setImage(#imageLiteral(resourceName: "plus_photo"), for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
 
@@ -20,16 +21,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.addSubview(plusPhotoButton)
-
-        plusPhotoButton.frame = CGRect(x: 0, y: 0, width: 140, height: 140)
+        
+        plusPhotoButton.heightAnchor.constraint(equalToConstant: 140).isActive = true
+        plusPhotoButton.widthAnchor.constraint(equalToConstant: 140).isActive = true
+        plusPhotoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        plusPhotoButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 40).isActive = true
         
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
