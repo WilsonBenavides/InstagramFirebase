@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104A7BF521500824007BEA45 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7BF421500823007BEA45 /* MainTabBarController.swift */; };
+		104A7BF7215008FE007BEA45 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7BF6215008FE007BEA45 /* UserProfileController.swift */; };
 		108BDEAF214D7A20006194DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 108BDEAE214D7A1F006194DC /* GoogleService-Info.plist */; };
 		10A4A3F421390794001E5064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4A3F321390794001E5064 /* AppDelegate.swift */; };
 		10A4A3F621390795001E5064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4A3F521390795001E5064 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		104A7BF421500823007BEA45 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		104A7BF6215008FE007BEA45 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
 		108BDEAE214D7A1F006194DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		10A4A3F021390792001E5064 /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A4A3F321390794001E5064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				10A4A3FC213907C9001E5064 /* LaunchScreen.storyboard */,
 				10A4A3FF213907C9001E5064 /* Info.plist */,
 				10B183EF2145F67B009DC96F /* Extensions.swift */,
+				104A7BF421500823007BEA45 /* MainTabBarController.swift */,
+				104A7BF6215008FE007BEA45 /* UserProfileController.swift */,
 			);
 			path = InstagramFirebase;
 			sourceTree = "<group>";
@@ -215,6 +221,8 @@
 			files = (
 				10A4A3F621390795001E5064 /* ViewController.swift in Sources */,
 				10B183F02145F67C009DC96F /* Extensions.swift in Sources */,
+				104A7BF521500824007BEA45 /* MainTabBarController.swift in Sources */,
+				104A7BF7215008FE007BEA45 /* UserProfileController.swift in Sources */,
 				10A4A3F421390794001E5064 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
